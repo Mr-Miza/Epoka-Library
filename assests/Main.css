@@ -1,13 +1,12 @@
 #navHolder{
-    background-color: rgba(23, 15, 182, 0.773);
+    background-color: rgba(224, 145, 41, 0.773);
     height: 90px;
     display: inline-block;
     position: relative;
     width: 100%;
 }
 body{
-    background-color: rgb(37, 143, 230);
-    background-image: url("resize_1399445264101.jpg");
+    background-color: rgba(250, 208, 144, 0.821);
     background-size: cover;
 }
 #HomePage{
@@ -18,15 +17,15 @@ body{
 h1 {
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(172, 216, 244);
+    color: rgb(170, 110, 46);
 }
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(82, 165, 217);
+    color: rgb(140, 92, 29);
 }
 nav {
     height: 80px;
-    background-color: rgba(23, 15, 182, 0.773);
+    background-color: rgba(182, 115, 15, 0.773);
     color: white;
     display: flex;
     align-items: center;
@@ -42,16 +41,14 @@ nav ul li a {
     text-decoration: none;
     padding: 10px;
 }
-img{
-    width: 120px;
+nav img{    
+    width: 70px;
     padding: 10px;
 }
 p {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(39, 133, 192) ;
+    color: rgb(142, 100, 33) ;
     position: relative;
     top: 50px;
-    
-
 }

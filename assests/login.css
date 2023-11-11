@@ -1,0 +1,91 @@
+input{
+margin: 5px;
+}
+form#orderForm{
+    
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+form#orderForm label,
+form#orderForm input,
+form#orderForm span,
+form#orderForm textarea {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+form#orderForm label {
+    font-weight: bold;
+}
+
+form#orderForm input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#FormContainer{
+    margin-top:100px;
+}
+form#orderForm button {
+    background-color: #967259;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form#orderForm button:hover {
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+form#orderForm span{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+form#orderForm div{
+    margin-bottom: 20px;
+}
+
+
+#navHolder{
+    background-color: #f0a970c5;
+    height: 90px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+nav {
+    height: 80px;
+    background-color: rgba(23, 15, 182, 0.773);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav img{
+    width: 70px;
+    padding: 10px;
+}
