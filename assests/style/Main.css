@@ -6,7 +6,7 @@
     width: 100%;
 }
 body{
-    background-image: url("first\ image.jpg");
+    background-image: url("/assests/img/firstImage.jpg");
     background-color: rgb(250, 208, 144);
     background-size: cover;
 }

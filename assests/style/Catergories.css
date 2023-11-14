@@ -54,11 +54,23 @@ nav img{
 #searchBox{
     width: 400px;
     height: 150px;
-    background-color: rgb(180, 141, 82);
+    background-color: rgba(180, 141, 82, 0.026);
     position: absolute;
     right: 100px;
-    top: 100px;
+    top: 100px;  
 }
-
+button{
+    width: 60px;
+    height: 33px;
+    margin-top: 8px;
+}
+input[type=text] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 1px;
+    border: none;
+    font-size: 17px;
+  }
 
 
